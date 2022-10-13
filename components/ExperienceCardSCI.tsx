@@ -30,26 +30,26 @@ function ExperienceCardSCI({}: Props) {
       />
 
       <div className="px-0 md:px-10">
-        <h4 className="text-2xl font-light">
+        <h4 className="text-xl font-light">
           Lighting Consultant (Field Application Engineer)
         </h4>
-        <p className="text-xl mt-1">Supreme Components International</p>
+        <p className="text-lg mt-1 text-[#ff2997] ">Supreme Components Intl</p>
         <div className="flex space-x-2 my-2">
           <img className="h-10 w-10 rounded-full" src={dialux.src} alt="" />
         </div>
-        <p className="uppercase py-5 text-gray-300">Jul 2017 - Jul 2020</p>
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <p className="uppercase py-5 text-gray-400">Jul 2017 - Jul 2020</p>
+        <ul className="list-disc space-y-4 ml-5 text-base">
           <li>
             Won {'"'}Rookie of the Year{'"'} and {'"'}Best Tech Support of the
-            Year{'"'} in two consecutive years
+            Year{'"'} in two consecutive years.
           </li>
           <li>
-            Accomplished in increasing revenue from 2.1 million USD to 3.36
-            million for FY2017-2018
+            Accomplished in driving revenue from 2.1 million USD to 3.36 million
+            for FY2017-2018.
           </li>
           <li>
-            Achieved a feedback rating of 9.5/10 from product and sales training
-            to sales teams and clients
+            Achieved a feedback rating of 9.5/10 in product and sales training
+            from the sales teams and clients.
           </li>
         </ul>
       </div>

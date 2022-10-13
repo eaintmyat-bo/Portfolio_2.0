@@ -34,8 +34,8 @@ function ExperienceCardVI({}: Props) {
       />
 
       <div className="px-0 md:px-10">
-        <h4 className="text-2xl font-light">Backend Software Engineer</h4>
-        <p className="text-xl mt-1">8I Holdings (VI App)</p>
+        <h4 className="text-xl font-light">Backend Software Engineer</h4>
+        <p className="text-lg mt-1 text-[#ff2997]">8I Holdings (VI App)</p>
         <div className="flex space-x-2 my-2">
           <img className="h-10 w-10 rounded-full" src={node.src} alt="" />
           <img className="h-10 w-10 rounded-full" src={ruby.src} alt="" />
@@ -43,17 +43,22 @@ function ExperienceCardVI({}: Props) {
           <img className="h-10 w-10 rounded-full" src={firebase.src} alt="" />
           <img className="h-10 w-10 rounded-full" src={gcp.src} alt="" />
         </div>
-        <p className="uppercase py-5 text-gray-300">Aug 2021 - Present</p>
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <p className="uppercase py-5 text-gray-400">Aug 2021 - Present</p>
+        <ul className="list-disc space-y-4 ml-5 text-base">
           <li>
-            Successfully implemented subscription models and in-app purchases
+            Successfully developed and maintained backend subscription processes
+            and in-app purchases.
           </li>
           <li>
-            Focuses on user centric backend features implementation for
-            investment app
+            Focuses on implementing user centric backend features for investment
+            app.
           </li>
-          <li>Supports fixes and issues on the application post-deployment</li>
-          <li>Conducts code reviews</li>
+          <li>Assists as a back-up Scrum Master.</li>
+          <li>
+            Supports fixes and issues on the application pre-launch and
+            post-deployment.
+          </li>
+          <li>Conducts code reviews.</li>
         </ul>
       </div>
     </article>

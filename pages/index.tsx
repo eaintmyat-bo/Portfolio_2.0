@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     <div
       className="bg-[#1A1A1D] text-white h-screen snap-y 
     snap-mandatory overflow-y-scroll overflow-x-hidden z-0
-    scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80"
+    scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#950740]/80"
     >
       <Head>
         <title>EaintBo's Portfolio</title>

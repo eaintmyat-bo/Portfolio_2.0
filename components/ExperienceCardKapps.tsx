@@ -32,25 +32,25 @@ function ExperienceCardKapps({}: Props) {
       />
 
       <div className="px-0 md:px-10">
-        <h4 className="text-2xl font-light">Full Stack Developer</h4>
-        <p className="text-xl mt-1">Kapps Consulting</p>
+        <h4 className="text-xl font-light">Full Stack Developer</h4>
+        <p className="text-lg mt-1 text-[#ff2997]">Kapps Consulting</p>
         <div className="flex space-x-2 my-2">
           <img className="h-10 w-10 rounded-full" src={java.src} alt="" />
           <img className="h-10 w-10 rounded-full" src={vue.src} alt="" />
           <img className="h-10 w-10 rounded-full" src={mysql.src} alt="" />
         </div>
-        <p className="uppercase py-5 text-gray-300">Feb 2021 - July 2021</p>
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <p className="uppercase py-5 text-gray-400">Feb 2021 - July 2021</p>
+        <ul className="list-disc space-y-4 ml-5 text-base">
           <li>
-            Developed robust Java code for backend financial rebate system
-            application for banks
+            Succesffully developed both backend and responsive UI financial
+            rebate system application for one of the top Singapore banks.
           </li>
-          <li>Implemented reactive UI for financial rebate system</li>
           <li>
             Coordinated with associate director on rebate payment database
-            design and project timelines
+            design and project timelines.
           </li>
-          <li>Conducted code reviews</li>
+          <li>Supported bug fixes post production.</li>
+          <li>Carried out QA for the company's legacy app.</li>
         </ul>
       </div>
     </article>

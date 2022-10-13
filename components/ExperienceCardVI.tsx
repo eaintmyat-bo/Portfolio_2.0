@@ -33,7 +33,7 @@ function ExperienceCardVI({}: Props) {
         alt=""
       />
 
-      <div className="px-0 md:px-10">
+      <div className="px-0 py-5 md:px-10">
         <h4 className="text-xl font-light">Backend Software Engineer</h4>
         <p className="text-lg mt-1 text-[#ff2997]">8I Holdings (VI App)</p>
         <div className="flex space-x-2 my-2">

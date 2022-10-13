@@ -29,7 +29,7 @@ function ExperienceCardSCI({}: Props) {
         alt=""
       />
 
-      <div className="px-0 md:px-10">
+      <div className="px-0 py-5 md:px-10">
         <h4 className="text-xl font-light">
           Lighting Consultant (Field Application Engineer)
         </h4>

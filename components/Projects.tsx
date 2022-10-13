@@ -47,7 +47,7 @@ const Projects = (props: Props) => {
       <div
         className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory
        z-20
-       scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80"
+       scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#950740]/80"
       >
         {projects.map((project, i) => (
           // eslint-disable-next-line react/jsx-key
@@ -66,7 +66,7 @@ const Projects = (props: Props) => {
 
             <div className="space-y-10 px-0 md:px-0 max-w-6xl">
               <h4 className="text-2xl font-semibold text-center">
-                <span className="underline decoration-[#F7AB0A]/50">
+                <span className="underline decoration-[#ff2997]/50">
                   Project {i + 1} of {projects.length}
                 </span>
                 : {project.name}
@@ -80,7 +80,7 @@ const Projects = (props: Props) => {
         ))}
       </div>
 
-      <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12" />
+      <div className="w-full absolute top-[30%] bg-[#ff2997]/10 left-0 h-[500px] -skew-y-12" />
     </div>
   );
 };

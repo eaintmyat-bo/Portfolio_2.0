@@ -42,7 +42,7 @@ function ExperienceCardKapps({}: Props) {
         <p className="uppercase py-5 text-gray-400">Feb 2021 - July 2021</p>
         <ul className="list-disc space-y-4 ml-5 text-base">
           <li>
-            Succesffully developed both backend and responsive UI financial
+            Succesfully developed both backend and responsive UI financial
             rebate system application for one of the top Singapore banks.
           </li>
           <li>

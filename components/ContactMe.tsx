@@ -27,23 +27,21 @@ const ContactMe = ({}: Props) => {
       </h3>
 
       <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
-          How to Reach Out to Me
-        </h4>
+        <h4 className="text-4xl font-semibold text-center">Reach Out to Me</h4>
 
         <div className="space-y-10">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <PhoneIcon className="text-[#ff2997] h-7 w-7 animate-pulse" />
             <p className="text-2xl">+65-88908290</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <EnvelopeIcon className="text-[#ff2997] h-7 w-7 animate-pulse" />
             <p className="text-2xl">eaintmyat.bo@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <MapPinIcon className="text-[#ff2997] h-7 w-7 animate-pulse" />
             <p className="text-2xl">East, Singapore</p>
           </div>
         </div>
@@ -79,7 +77,7 @@ const ContactMe = ({}: Props) => {
           />
           <button
             type="submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#ff2997]/75 py-5 px-10 rounded-md text-black font-bold text-lg"
           >
             Submit
           </button>
